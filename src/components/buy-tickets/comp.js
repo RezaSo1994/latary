@@ -5,12 +5,17 @@ import bigstar from '../../images/star-big.png'
 import goldticket from '../../images/ticket-l.png'
 import silverticket from '../../images/ticket-r.png'
 import threestars from '../../images/three-stars.png'
+import bg2 from '../../images/bg2.png'
+import bgStar from '../../images/bg1.svg'
+
+
 
 
 
 export default function BuyTickets() {
     return (
-        <div className="background">
+        <div className='root-background'>
+            <div className="background">
             <div className="box-container">
             <div className="background-images">
                 <div className="small-star">
@@ -42,7 +47,11 @@ export default function BuyTickets() {
                     <img src={silverticket} width='90px' height='90px'></img>
                 </div>
             </div>
+ 
+            <img src={bgStar} width='1400px' height='1400px' className="bg-star"></img>
             </div>
+            </div>
+            <img className="bg2" src={bg2}  ></img>
         </div>
     )
 }
