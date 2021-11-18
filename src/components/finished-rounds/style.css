@@ -262,7 +262,7 @@
 }
 
 .winning-number-text{
-  width: 12vw;
+  width: 30vw;
   height: 5vh;
   justify-content: center;
   align-items: center;
@@ -415,7 +415,7 @@
 } */
 
 
-@media only screen and (max-width: 851px) {
+@media only screen and (max-width: 852px) {
   .your-history-show {
     width: 87vw;
   }
@@ -427,5 +427,37 @@
   }
   .date-time{
     width: 80vw;
+  }
+  .text-cyrcle{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .winning-number-cyrcles{
+    margin-right: 0vh;
+  }
+  .winning-number-cyrcle1{
+    outline: 2px solid palevioletred;
+    font-size: 16px;
+  }
+  .winning-number-cyrcle2{
+    outline: 2px solid rgb(124, 67, 150);
+    font-size: 16px;
+  }
+  .winning-number-cyrcle3{
+    outline: 2px solid rgb(91, 159, 214);
+    font-size: 16px;
+  }
+  .winning-number-cyrcle4{
+    outline: 2px solid rgb(26, 115, 218);
+    font-size: 16px;
+  }
+  .winning-number-cyrcle5{
+    outline: 2px solid rgb(66, 224, 87);
+    font-size: 16px;
+  }
+  .winning-number-cyrcle6{
+    outline: 2px solid rgb(189, 224, 93);
+    font-size: 16px;
   }
 }
